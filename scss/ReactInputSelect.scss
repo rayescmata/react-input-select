@@ -1,0 +1,28 @@
+div.reactInputSelectContainer {
+  display: inline-block;
+  position: relative;
+
+  div.reactInputSelectDropdownContainer {
+    background-color: white;
+    border-bottom: 0.5px inset darkgrey;
+    border-left: 0.5px inset darkgrey;
+    border-right: 0.5px inset darkgrey;
+    max-height: 100px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 99%;
+    z-index: 999999999999999999;
+
+    div.reactInputSelectDropdownOption {
+      padding: 2.5px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+  }
+
+  input.reactInputSelectField {
+    padding: 2.5px;
+  }
+}

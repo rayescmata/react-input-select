@@ -1,0 +1,44 @@
+body {
+  background-color: #383892;
+  font-family: arial;
+  margin: 0 auto;
+  padding: 0 12.5%;
+
+  div.componentDemoSection {
+    padding-left: 20px;
+  };
+
+  div.containerClassTest {
+    margin-left: 20px;
+  };
+
+  div.demoContainer {
+    display: inline-block;
+    float: left;
+  };
+
+  div.demoResultDisplay {
+    color: white;
+    display: grid;
+    padding: 15px 15px 15px 20px;
+  }
+
+  div.descriptionBox {
+
+    p {
+      color: white;
+      padding-left: 20px;
+      text-align: justify;
+    };
+  };
+
+  h2 {
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+  };
+
+  h3 {
+    color: white;
+  };
+};

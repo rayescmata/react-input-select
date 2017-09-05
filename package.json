@@ -1,0 +1,59 @@
+{
+  "name": "react-input-select",
+  "version": "1.0.0",
+  "description": "A mix of the input and selecte element, with filtering.",
+  "main": "/lib/ReactInputSelect.js",
+  "scripts": {
+    "build": "rimraf lib/* && webpack --display-error-details --progress --colors",
+    "dev": "yarn build && cd demo && yarn install && yarn dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RayEscMata/react-input-select.git"
+  },
+  "author": "RayEscMata <raymond.e.mata@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.22.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-react-inline-elements": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "coveralls": "^2.13.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-onclickoutside": "^6.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/RayEscMata/react-input-select/issues"
+  },
+  "homepage": "https://github.com/RayEscMata/react-input-select#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}

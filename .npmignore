@@ -1,0 +1,7 @@
+# npmignore for npm publishing
+demo/*
+src/*
+.babelrc
+.eslintrc.json
+.npmignore
+yarn.lock
