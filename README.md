@@ -1,8 +1,10 @@
 # react-input-select
 
-  The React-input-select component is, to say the least, the love child of the select and input elements. And a work in progress.
+  The React-input-select component is, to say the least, the love child of the select and input elements.
 
-  It's 
+  It's a simple attempt at making a select list but with more customizability and custom event handling.
+
+  And a work in progress.
 
 ## Installation
   
