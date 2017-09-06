@@ -7,6 +7,13 @@
     "build": "rimraf lib/* && webpack --display-error-details --progress --colors",
     "dev": "yarn build && cd demo && yarn install && yarn dev"
   },
+  "keywords": [
+    "dropdown",
+    "filter",
+    "options",
+    "react",
+    "select"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/RayEscMata/react-input-select.git"

@@ -1,12 +1,13 @@
 {
-  "name": "component_demo",
-  "version": "0.0.1",
+  "name": "react-input-select-demo",
+  "version": "1.0.0",
   "description": "The testing and demo module for the component development process.",
   "main": "server.js",
   "author": "RayEscMata <raymond.e.mata@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development node server.js"
+    "dev": "NODE_ENV=development node server.js",
+    "start": "node server.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
