@@ -5,7 +5,7 @@
   "main": "/lib/ReactInputSelect.js",
   "scripts": {
     "build": "rimraf lib/* && webpack --display-error-details --progress --colors",
-    "dev": "yarn build && cd demo && yarn install && yarn dev"
+    "dev": "npm run build && cd demo && npm install && npm run dev"
   },
   "keywords": [
     "dropdown",
