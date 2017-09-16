@@ -1,4 +1,5 @@
 import CustomFilterDemo from './CustomFilterDemo'
+import InputDemo from './InputDemo'
 import ObjectDemo from './ObjectDemo'
 import React, { PureComponent } from 'react'
 import RegularDemo from './RegularDemo'
@@ -38,6 +39,14 @@ const Demo = () => {
 
         <Section>
           <CustomFilterDemo />
+        </Section>
+
+        <div className = 'descriptionBox'>
+          <p>But in cases where the an item isn't on the list, then the user can just input whatever they want - handled by two events: onChange, and onBlur</p>
+        </div>
+
+        <Section>
+          <InputDemo />
         </Section>
       </div>
     </div>

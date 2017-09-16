@@ -5,7 +5,7 @@
   "main": "/lib/ReactInputSelect.js",
   "scripts": {
     "build": "rimraf lib/* && webpack --display-error-details --progress --colors",
-    "dev": "npm run build && cd demo && npm install && npm run dev"
+    "dev": "yarn build && cd demo && yarn install && yarn dev"
   },
   "keywords": [
     "dropdown",
@@ -42,7 +42,7 @@
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-compat": "^1.0.4",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.3.0",
     "node-sass": "^4.5.3",
     "rimraf": "^2.6.1",
