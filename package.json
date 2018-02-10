@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/RayEscMata/react-input-select.git"
   },
-  "author": "RayEscMata <raymond.e.mata@gmail.com>",
+  "author": "Raymond Rick E. Mata (raymond.e.mata@gmail.com)",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
