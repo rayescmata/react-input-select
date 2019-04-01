@@ -187,7 +187,8 @@ class ReactInputSelect extends PureComponent {
         <input className = {`reactInputSelectField ${inputClass}`}
           id = {`reactInputSelectFieldID ${inputId}`}
           onChange = {this.handleChange.bind(this)}
-          onFocus = {this.handleFocus.bind(this)}
+          onFocus={this.handleFocus.bind(this)}
+          onBlur={this.handleClickOutside.bind(this)}
           onKeyDown = {this.handleKeyDown.bind(this, dropdownOptions)}
           style = {style.input || {}}
           value = {value}
