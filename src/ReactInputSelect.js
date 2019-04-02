@@ -13,6 +13,7 @@ const SelectOptions = (props) => {
     , dropdownOptions
     , isObject
     , onClick
+    , onBlur
     , style
     , visible
   } = props
@@ -23,7 +24,7 @@ const SelectOptions = (props) => {
 
   return (
     <div className = {`reactInputSelectDropdownContainer ${dropdownClass}`}
-      style = {style.dropdown || {}}>
+      style={style.dropdown || {}} onBlur={onBlur.bind(null)}>
       {
         dropdownOptions.map((item, idx) => {
           return (
@@ -188,7 +189,6 @@ class ReactInputSelect extends PureComponent {
           id = {`reactInputSelectFieldID ${inputId}`}
           onChange = {this.handleChange.bind(this)}
           onFocus={this.handleFocus.bind(this)}
-          onBlur={this.handleClickOutside.bind(this)}
           onKeyDown = {this.handleKeyDown.bind(this, dropdownOptions)}
           style = {style.input || {}}
           value = {value}
@@ -199,7 +199,8 @@ class ReactInputSelect extends PureComponent {
           dropdownClass = {dropdownClass}
           dropdownOptionClass = {dropdownOptionClass}
           dropdownOptions = {dropdownOptions}
-          isObject = {isObject}
+          isObject={isObject}
+          onBlur={this.handleClickOutside.bind(this)}
           onClick = {this.handleOptionClick.bind(this)}
           style = {style || {}}
           visible = {visible}
